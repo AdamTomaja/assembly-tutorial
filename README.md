@@ -17,3 +17,6 @@ Code written by me for learning purpouses
 ```bash
     ./helloworld
 ```
+
+### Link to the tutorial i used
+https://www.tutorialspoint.com/assembly_programming/index.htm
