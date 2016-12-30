@@ -1,5 +1,6 @@
 # assembly-tutorial
-Code written by me for learning purpouses
+Code written by me for learning purpouses.
+All source files are designed to work on Linux OS.
 
 ## How to compile and run the examples
 
