@@ -26,3 +26,19 @@ _start:                         ; Entry point
 section .data
 name db 'Adam Kowalski '        ; Declare name
 nameLen equ $ - name            ; Calculate name length
+
+; MOV operation forms:
+; -----------------------
+; MOV register, register
+; MOV register, immediate
+; MOV memory, immediate
+; MOV register, memory
+; MOV memory, register
+
+; Type specifiers
+; ----------------------
+; BYTE -  1 byte
+; WORD -  2 bytes
+; DWORD - 4 bytes
+; QWORD - 8 bytes
+; TBYTE - 10 bytes
