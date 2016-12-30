@@ -1,3 +1,12 @@
+; Basic arithmetic operations:
+; -----------------------------
+; inc - increment by one
+; dec - decrement by one
+; add - sum
+; sub - subtraction
+; mul/imul - multiplication
+; div/idiv - division
+
 SYS_EXIT equ 1
 SYS_READ equ 3
 SYS_WRITE equ 4
@@ -15,9 +24,9 @@ segment .data
     msg3Len equ $ - msg3
     
 segment .bss
-    num1 resb 2
-    num2 resb 2
-    res resb 1
+    num1 resb 2     ; Reserve 2 bytes for number 1
+    num2 resb 2     ; Reserve 2 bytes for number 2
+    res resb 1      ; Reserve one byte for result
 
 section .text
     global _start
